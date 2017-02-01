@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Four Player Game</title>
+
+	<style type="text/css">
+		.wrapper {
+			width: 100%;
+			text-align: center;
+		}
+
+		.inner {
+			width: 600px;
+			text-align: left;
+			margin: auto;
+		}
+
+		canvas {
+			margin: auto;
+		}
+	</style>
+</head>
+
+<body>
+
+	<img src="players/p1_walk1.png" id="p1_1" style="display:none" />
+	<img src="players/p1_walk2.png" id="p1_2" style="display:none" />
+	<img src="players/p2_walk1.png" id="p2_1" style="display:none" />
+	<img src="players/p2_walk2.png" id="p2_2" style="display:none" />
+	<img src="players/p3_walk1.png" id="p3_1" style="display:none" />
+	<img src="players/p3_walk2.png" id="p3_2" style="display:none" />
+	<img src="players/p4_walk1.png" id="p4_1" style="display:none" />
+	<img src="players/p4_walk2.png" id="p4_2" style="display:none" />
+
+	<div class="wrapper">
+		<canvas id="canvas" width=600 height=600 style="border: 1px solid #333;" >
+
+	</canvas>
+
+	<div class="inner">
+		<button onclick="start()">Start!</button>
+		<div>
+			<dl>
+				<dt>Player 1</dt>
+				<dd>Use <strong>Q</strong> &amp; <strong>A</strong> to run </dd>
+
+				<dt>Player 2</dt>
+				<dd>Use <strong>F</strong> &amp; <strong>G</strong> to run </dd>
+
+				<dt>Player 3</dt>
+				<dd>Use <strong>N</strong> &amp; <strong>M</strong> to run </dd>
+
+				<dt>Player 4</dt>
+				<dd>Use <strong>O</strong> &amp; <strong>P</strong> to run </dd>
+			</dl>
+		</div>
+	</div>
+
+	</div>
+
+
+
+	<script src="main.js"></script>
+
+</body>
+
+</html>
